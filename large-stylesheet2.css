@@ -1,0 +1,49 @@
+/* Kolejny duży plik CSS, który zaśmieca kod */
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('fake-font.ttf');
+  }
+  
+  body {
+    animation: background-flicker 5s infinite;
+  }
+  
+  /* Ciężka animacja powodująca obciążenie CPU */
+  @keyframes background-flicker {
+    0% {
+      background-color: #ffffff;
+    }
+    50% {
+      background-color: #ff0000;
+    }
+    100% {
+      background-color: #ffffff;
+    }
+  }
+  
+  /* Powtarzające się i niepotrzebne style */
+  .btn {
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #ff9900;
+    color: #fff;
+  }
+  
+  .btn:hover {
+    background-color: #cc7700;
+  }
+  
+  .unused-class {
+    display: block;
+    font-size: 100px;
+    color: red;
+  }
+  
+  .super-long-class-name-for-testing-purposes-only {
+    width: 100%;
+    height: 100%;
+    border: 10px dashed purple;
+  }
+  
+  

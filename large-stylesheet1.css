@@ -1,0 +1,53 @@
+/* Ogromny plik CSS, z nieoptymalnymi i powtarzającymi się stylami */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Powtarzające się style dla każdego elementu */
+  .box1 {
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+  }
+  
+  .box2 {
+    width: 200px;
+    height: 200px;
+    background: #00ff00;
+  }
+  
+  .box3 {
+    width: 200px;
+    height: 200px;
+    background: #0000ff;
+  }
+  
+  /* Mnóstwo niepotrzebnych zagnieżdżeń */
+  div div div div {
+    border: 1px solid red;
+  }
+  
+  div div div div div div div {
+    border: 1px solid green;
+  }
+  

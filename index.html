@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Pełna Antywzorców</title>
+    <!-- Niepotrzebne style zaimportowane w sposób blokujący -->
+    <link rel="stylesheet" href="large-stylesheet1.css">
+    <link rel="stylesheet" href="large-stylesheet2.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        /* Nieoptymalne style inline */
+        div {
+            background: url('https://images7.alphacoders.com/130/1302599.jpg');
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <!-- Blokujące skrypty -->
+    <!-- <script src="https://example.com/large-library.js"></script> -->
+    <script>
+        // Niepotrzebny kod JavaScript
+        for (let i = 0; i < 1000000; i++) {
+            console.log('Spowalniam działanie strony');
+        }
+    </script>
+</head>
+<body>
+    <h1>Witamy na stronie pełnej antywzorców</h1>
+    <p>Ta strona została zaprojektowana, aby maksymalnie spowolnić swoje ładowanie.</p>
+
+    <!-- Zbyt duża ilość obrazów bez lazy-loading -->
+    <img src="image1.jpg" alt="Large Image 1">
+    <img src="image2.jpg" alt="Large Image 2">
+    <img src="image3.jpg" alt="Large Image 3">
+
+    <!-- Niepotrzebne osadzone filmy -->
+    <video autoplay muted loop>
+        <source src="https://www.youtube.com/watch?v=twGEO-8k1xk&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVMtwGEO-8k1xk&start_radio=1" type="video/mp4">
+    </video>
+
+    <!-- Ukryte iFrame'y -->
+    <iframe src="https://www.youtube.com/watch?v=twGEO-8k1xk&list=RDGMEMQ1dJ7wXfLlqCjwV0xfSNbAVMtwGEO-8k1xk&start_radio=1" style="display:none;"></iframe>
+
+    <!-- Animacje działające na każdym pikselu -->
+    <script>
+        window.addEventListener('scroll', () => {
+            document.body.style.backgroundColor = `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
+        });
+    </script>
+
+    <!-- Niepotrzebne skrypty śledzące -->
+    <!-- <script src="https://example.com/analytics1.js"></script>
+    <script src="https://example.com/analytics2.js"></script> -->
+</body>
+</html>
